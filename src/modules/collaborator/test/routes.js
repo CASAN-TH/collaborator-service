@@ -44,10 +44,6 @@ describe('Collaborator CRUD routes tests', function () {
 
     it('should be Collaborator get use token', (done)=>{
 
-        
-
-
-
         request(app)
             .post('/api/collaborators')
             .set('Authorization', 'Bearer ' + token)
