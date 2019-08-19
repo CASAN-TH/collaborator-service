@@ -1,4 +1,5 @@
 'use strict';
+
 var request = require('supertest'),
     assert = require('assert'),
     config = require('../../../config/config'),
