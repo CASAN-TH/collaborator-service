@@ -25,7 +25,6 @@ describe('Collaborator CRUD routes tests', function () {
         _collaborator.save();
         mockup = {
             email:"porapot2@gmail.com"
-
         };
         credentials = {
             username: 'username',
@@ -63,7 +62,7 @@ describe('Collaborator CRUD routes tests', function () {
                         return done(err);
                     }
                     var resp = res.body;
-                    assert.equal(resp.data.length,1);
+                     assert.equal(resp.data.length,1);
                     done();
                 });
             });
